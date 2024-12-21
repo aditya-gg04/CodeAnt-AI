@@ -1,6 +1,12 @@
+@import url('https://cdn.jsdelivr.net/gh/ijglynn/satoshi-font/css/satoshi.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply font-sans;
+}
 
 @font-face {
   font-family: 'Satoshi';
